@@ -1,14 +1,11 @@
 body{
-	padding: 0 auto;
 	margin: 0 auto;
 	font:16px Verdana, Arial;
-	width: 100%;
-	max-width: 1000px;
 }
+
 /*=============================================
 оформление блока шапки
 ==============================================*/
-
 header {
 	background: #fc3;
 	border-bottom: 3px solid black; 
@@ -16,18 +13,17 @@ header {
 .header{
 	border-left: 3px solid black;
 	border-right: 3px solid black;
-	/*width: 1000px;
-	margin: 0 auto;*/
+	width: 1000px;
+	margin: 0 auto;
    	height:  100px;
    	vertical-align:  middle;
 }
 
 /*=========================================
 оформление блока контента==================*/
-
 .container {
-	/*margin: 0 auto;
-	width: 1000px;*/
+	margin: 0 auto;
+	width: 1000px;
 	border-left: 3px solid black;
 	border-right: 3px solid black;
 	height: 100%;
@@ -37,26 +33,14 @@ header {
 	vertical-align: top;
 	width: 100%;
 }
-
-@media all and (max-width: 999px){
-	.cont1{
-		overflow-x: scroll;
-		overflow-y: hidden;
-	}
-}
-
-
 .cont2{
 	display: inline-block;
-	border: 1px solid red;
 	vertical-align: top;
-	/*width: 100%;*/
+	width: 100%;
 	min-height: 500px;
-	display: block;
 }
 .block1, .block2, .block3, .block4 {
     background: #456;
-   /* width: 100px;*/
     height: 40px;
     display: inline-block;
 	margin: 5%; 
@@ -65,14 +49,13 @@ header {
 
 /*=========================================
 оформление footer========================*/
-
 footer {
 	background: #008000;
 	border-top: 3px solid black;
 }
 .footer1, .footer2{
-	/*width: 1000px;
-	margin: 0 auto;*/
+	width: 1000px;
+	margin: 0 auto;
 	height: 50px;
 	border-left: 3px solid black;
 	border-right: 3px solid black;
